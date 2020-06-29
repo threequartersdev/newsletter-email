@@ -1,0 +1,310 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.header {
+  background-color: $alert-color;
+  background: $alert-color;
+
+  .columns {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+}
+
+.band-image {
+  background-color: $white;
+  background: $white;
+
+  .columns {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+.presale {
+  background-color: $white;
+  background: $white;
+
+  .columns {
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    h2 {
+      text-align: center;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      font-size: 24px;
+
+      span {
+        color: $alert-color;
+      }
+    }
+  }
+}
+
+.band-name {
+  background-color: $white;
+  background: $white;
+
+  .columns {
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+      font-size: 28px;
+    }
+  }
+}
+
+.band-description {
+  background-color: $white;
+  background: $white;
+
+  .columns {
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    p {
+      padding-bottom: 0px !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      margin-bottom: 0 !important;
+      text-align: center;
+    }
+  }
+}
+
+.available {
+  background-color: $white;
+  background: $white;
+
+  .columns {
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    p {
+      padding-bottom: 8px !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      margin-bottom: 0 !important;
+      text-align: center;
+    }
+  }
+}
+
+.button-row {
+  background-color: $white;
+  background: $white;
+
+  .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    a {
+      text-decoration: none;
+      color: $white;
+      background-color: $alert-color;
+      background: $alert-color;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border-radius: 35px;
+    }
+  }
+}
+
+.small-image {
+  background-color: $light-gray !important;
+  background: $light-gray !important;
+  .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .c-left {
+    background-color: $white !important;
+    background: $white !important;
+  }
+
+  .blank-col {
+    background-color: $light-gray !important;
+    background: $light-gray !important;
+  }
+
+  .c-right {
+    background-color: $white !important;
+    background: $white !important;
+  }
+
+  h4 {
+    font-size: 14px;
+    text-align: center;
+
+    span {
+      color: $alert-color;
+    }
+  }
+
+  h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 14px;
+    text-align: center;
+    color: $white;
+
+    a {
+      background-color: $alert-color;
+      color: $white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 35px;
+    }
+  }
+}
+
+.horizontal-band {
+  .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 5px;
+
+    a {
+      text-decoration: none;
+      color: $black;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  p {
+    color: $alert-color;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+
+  .arrow {
+    margin: 0 auto;
+  }
+}
+
+.ad-banner {
+  .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+.footer {
+  .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  h3 {
+    color: $white;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .social {
+    .columns {
+      padding-right: 5px !important;
+      margin-right: 5px !important;
+    }
+  }
+}
+
+.footer-low {
+  background-color: $black !important;
+  background: $black !important;
+
+  .columns {
+    background-color: $black !important;
+    background: $black !important;
+    padding-bottom: 0 !important;
+
+    h5 {
+      color: $white;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+
+      a {
+        text-decoration: none;
+        color: $white;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+
+    p {
+      color: $white;
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: 0 !important;
+      a {
+        text-decoration: none;
+        color: $white;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+
+    h6 {
+      color: $white;
+      font-size: 12px;
+      text-align: center;
+      a {
+        text-decoration: underline;
+        color: $white;
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+  }
+}
